@@ -3,3 +3,7 @@
 // fs
 // path
 //sequelize
+
+module.export = {
+  Workout: require("./workout"),
+};
