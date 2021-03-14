@@ -10,23 +10,18 @@ const db = require("./seeders");
 const app = express();
 //to use
 app.use(logger("dev"));
+//parser
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+//static files
 app.use(express.static("public"));
 //mongoose
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populate", {
   useNewUrlParser: true,
 });
 
-//listening to routes?
-
-// view daily workouts
-
-// log new exercises
-
-// view all weight from past 7 exercises
-
-// view total duration of each workout for the past 7
+//listening to routes
+app.use(require("./routes/api.js"));
 
 //listening to port
 app.listen(PORT, () => {
