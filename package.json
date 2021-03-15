@@ -16,5 +16,14 @@
     "morgan": "^1.9.1"
   },
   "keywords": [],
-  "description": ""
+  "description": "create a workout tracker. \r provided with the front end code in the `Develop` \r create Mongo database with a Mongoose schema\r create handle routes with Express.",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blairntaylor/workout-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blairntaylor/workout-tracker/issues"
+  },
+  "homepage": "https://github.com/blairntaylor/workout-tracker#readme"
 }

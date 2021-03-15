@@ -48,7 +48,7 @@ module.exports = (app) => {
     db.Workout.findByIdAndUpdate(
       params.id,
       { $push: { exercises: body } },
-      { new: true, runValidators: true },
+      { new: true, useFindAndModify: false },
       (updatedWorkout) => {
         res.json(updatedWorkout);
       }

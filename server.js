@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 //port
 const PORT = process.env.PORT || 3000;
 
-const db = require("./seeders");
+// const db = require("./seeders");
 
 const app = express();
 //to use
@@ -20,8 +20,11 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populate", {
   useNewUrlParser: true,
 });
 
+// app.use(require("./seeders"));
+
 //listening to routes
 app.use(require("./routes/api.js"));
+app.use(require("./routes/html.js"));
 
 //listening to port
 app.listen(PORT, () => {
