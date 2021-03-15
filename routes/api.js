@@ -22,7 +22,7 @@ module.exports = (app) => {
     });
   });
   //app.put find workout range
-  app.get("/api/workout/range", (req, res) => {
+  app.get("/api/workouts/range", (req, res) => {
     db.Workout.find({}, (err, workouts) => {
       if (err) {
         console.log(err);
@@ -33,7 +33,7 @@ module.exports = (app) => {
   });
 
   //app.post create new workout plan
-  app.post("/api/workout/range", (req, res) => {
+  app.post("/api/workouts/range", (req, res) => {
     db.Workout.create({}, (err, workouts) => {
       if (err) {
         console.log(err);

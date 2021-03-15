@@ -37,7 +37,8 @@ To deploy an application with a MongoDB database to Heroku, you'll need to set u
 
 You are required to submit the following:
 
-* The URL to the deployed application
+* The URL to the deployed Heroku application
+** use node and db need to have a Heroku
 
 * The URL to the GitHub repository
 
