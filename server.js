@@ -16,15 +16,17 @@ app.use(express.json());
 //static files
 app.use(express.static("public"));
 //mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populate", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
 });
 
 // app.use(require("./seeders"));
 
 //listening to routes
-app.use(require("./routes/api.js"));
-app.use(require("./routes/html.js"));
+// app.use(require("./routes/api.js"));
+// app.use(require("./routes/html.js"));
+require("./routes/api.js")(app);
+require("./routes/html.js")(app);
 
 //listening to port
 app.listen(PORT, () => {

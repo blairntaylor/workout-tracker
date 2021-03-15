@@ -44,14 +44,13 @@ module.exports = (app) => {
   });
 
   //app to add exercise to workout
-  app.put("/api/workout/:workout", ({ params, body }, res) => {
+  app.put("/api/workout/:workout", ({ body }, res) => {
     db.Workout.findByIdAndUpdate(
-      params.id,
+      {},
       { $push: { exercises: body } },
-      { new: true, useFindAndModify: false },
-      (updatedWorkout) => {
-        res.json(updatedWorkout);
-      }
-    );
+      { new: true, useFindAndModify: false }
+    ).then((Workout) => {
+      res.json(Workout);
+    });
   });
 };
