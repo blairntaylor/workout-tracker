@@ -1,8 +1,4 @@
-//npm package required are setup
-
-// fs
-// path
-//sequelize
+//required are setup
 
 module.export = {
   Workout: require("./workout"),
