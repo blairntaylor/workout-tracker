@@ -43,7 +43,7 @@ module.exports = (app) => {
     });
   });
 
-  //app to add exercise to workout by id
+  //app to add exercise to workout
   app.put("/api/workout/:workout", ({ params, body }, res) => {
     db.Workout.findByIdAndUpdate(
       params.id,

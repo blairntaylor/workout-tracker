@@ -1,5 +1,5 @@
 //required are setup
 
-module.export = {
+module.exports = {
   Workout: require("./workout"),
 };
