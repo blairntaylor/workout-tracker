@@ -1,47 +1,33 @@
 # Unit 17 NoSQL Homework: Workout Tracker
-create a workout tracker. 
-provided with the front end code in the `Develop` 
-create Mongo database with a Mongoose schema
-create handle routes with Express.
 
-files added 
-* server.js
-* api.js
+License Badge: MIT Copyright (c) [2021] [Blair Taylor]
 
+## [Description](#description)
+## [Installation](#installation)
+## [Usage](#usage)
+## [Contributing](#contribute)
+## [Tests](#tests)
 
-- need app.get route for find all 
-* View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+## Description
+Create a workout tracker app with a Mongo database, Mongoose schema, and routes using Express. The models folder with index.js and workout.js files was created. Also, created routes with api.js and html.js code. The server doc to hold the required packages and connections. 
 
-- need app.get route for find by 
-* View the total duration of each workout from the past seven workouts on the `stats` page.
+## Installation
+Deploy on Heroku
 
-- need app.post route to 
-* Add exercises to the most recent workout plan.
+## Usage
+Run npm install npm run seed and node server.js
 
-- need app.post to 
-* Add new exercises to a new workout plan.
+## Contributing
+Email developer
 
-## User Story
+## Tests
+Email developer
 
+## Screenshot
 
-> **Important:** Look into using a MongoDB aggregate function to dynamically add up and return the total duration for each workout. Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
+## License
+This project is licensed to: MIT Copyright (c) [Year] [Fullname]
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
-
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
-
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed Heroku application
-** use node and db need to have a Heroku
-
-* The URL to the GitHub repository
-
-
-//activity 14
-//need a server.js
+## Questions
+GitHub username: blairntaylor
+Email address: [blairntaylor@gmail.com](mailto:blairntaylor@gmail.com)
