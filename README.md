@@ -12,10 +12,12 @@ License Badge: MIT Copyright (c) [2021] [Blair Taylor]
 Create a workout tracker app with a Mongo database, Mongoose schema, and routes using Express. The models folder with index.js and workout.js files was created. Also, created routes with api.js and html.js code. The server doc to hold the required packages and connections. 
 
 ## Installation
-Deploy on Heroku
+It is deployed on Heroku or link in GitHub.
+[Lets go to GitHub](....)
+[Lets go to Heroku](...)
 
 ## Usage
-Run npm install npm run seed and node server.js
+Run > npm install > npm run seed > node server.js
 
 ## Contributing
 Email developer
@@ -24,6 +26,9 @@ Email developer
 Email developer
 
 ## Screenshot
+![Screenshot](/public/img/screenshot1.PNG "Screenshot of Workout Tracker Last Workout")
+![Screenshot](/public/img/screenshot2.PNG "Screenshot of Workout Tracker Dashboard")
+![Screenshot](/public/img/screenshot3.PNG "Screenshot of Workout Tracker Add Exercise")
 
 ## License
 This project is licensed to: MIT Copyright (c) [Year] [Fullname]

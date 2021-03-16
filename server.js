@@ -3,9 +3,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 //port
-const PORT = process.env.PORT || 3000;
-
-// const db = require("./seeders");
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 //to use
@@ -19,8 +17,6 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
 });
-
-// app.use(require("./seeders"));
 
 //listening to routes
 // app.use(require("./routes/api.js"));
