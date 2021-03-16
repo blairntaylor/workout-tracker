@@ -13,8 +13,8 @@ Create a workout tracker app with a Mongo database, Mongoose schema, and routes 
 
 ## Installation
 It is deployed on Heroku or link in GitHub.
-[Lets go to GitHub](....)
-[Lets go to Heroku](...)
+[Lets go to GitHub](https://blairntaylor.github.io/workout-tracker/)
+[Lets go to Heroku](https://vast-retreat-26029.herokuapp.com/)
 
 ## Usage
 Run > npm install > npm run seed > node server.js
